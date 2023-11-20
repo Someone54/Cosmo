@@ -57,25 +57,12 @@
     <h2>Log in</h2>
     <form action="Validar 2.php" method="POST">
         <p><label for="usuario" id="pp">Usuario</label>
-        <input type="text" name="usuario"></p>
+        <input type="text" name="usuario" required></p>
 
         <p><label for="contraseña" id="pp">Contraseña</label>
-        <input type="text" name="contraseña"></p>
-<?php
-    if(isset($_GET['error'])){
-        $error = $_GET['error'];
-        if($error == "incorrecto"){
-        echo "<p class='error'>El usuario o la contraseña no son correctos</p>";
-        }
-        if($error == "vacío"){
-        echo "<p class='error'>Los datos se encuentran vacíos</p>";
-        }
-}
-?>
-
-      <input type="submit" name="submit" href="/index WL.php">
-      </form>
-      
+        <input type="password" name="contraseña" required></p>
+        <input type="submit" value="Enviar" href="/index WL.php">
+    </form>     
     </form>
     </div>
     </div>

@@ -76,7 +76,7 @@
       <input type="text" name="nombre" required value="<?php if(isset($nombre)) echo $nombre ?>">
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <label for="" id="pp">Fecha de Nacimiento:</label>
-      <input type="date" name="date" min="2023-09-01" max="<?php echo date('Y-m-d') ?>"required value="<?php if(isset($date)) echo $date ?>">
+      <input type="date" name="date" min="00-00-0000" max="<?php echo date('Y-m-d') ?>"required value="<?php if(isset($date)) echo $date ?>">
       <label for="" id="pp">Correo:</label>
       <input type="text" name="correo" required value="<?php if(isset($correo)) echo $correo ?>">
       <label for="" id="pp">Telefono:</label>
@@ -94,7 +94,9 @@
         <option value="Mujer">Mujer</option>
         <option value="Prefiero no decir.">Prefiero no decir</option>
       </select>
-       <input type="submit" name="submit">
+      <label for="activo" id="pp">¿Desea recibir notificaciones procedentes de esta pagina?</label>
+        <input type="checkbox" id="activo" name="activo">
+      <input type="submit" name="submit">
       <?php
       include ("validar.php");
       ?>

@@ -58,7 +58,7 @@
                         <div id="Bloq-1">
                             <h1>Inspiratec</h1>
                         </div>
-                        <div id="Bloq-2">
+                        <div id="Bloq-2" id="pp">
                             <h4>Por Cesde y Cosmos</h4>
                         </div>
                     </div>
@@ -71,7 +71,7 @@
                               tu bachillerato estudies también una técnica laboral, enfocada en el desarrollo de software.</p>
                     </div>
                     <div id="img">
-                        <img src="Inspiratec_CosmoS.png" alt="">
+                       <img src="istockphoto-1372606890-612x612.jpg" alt="">
                     </div>
                     <div id="Bloq-4">
                         <h2>Beneficios</h2>
@@ -127,8 +127,8 @@
                     <div id="Bloq-3">
                         <h2>¿Donde nos encontramos?</h2>
                     </div>
-                    <div class="ratio ratio-21x9">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1145.5743862923055!2d-75.5660615234636!3d6.24447827566486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429fc19a253cd%3A0x4566d059b908362c!2sCosmo%20Schools%20Sede%20Centro!5e0!3m2!1ses!2sco!4v1683246687415!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="ratio ratio-21x9" id="frame">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1145.5743862923055!2d-75.5660615234636!3d6.24447827566486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429fc19a253cd%3A0x4566d059b908362c!2sCosmo%20Schools%20Sede%20Centro!5e0!3m2!1ses!2sco!4v1683246687415!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen=""  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
 
                     <!--Footer-->

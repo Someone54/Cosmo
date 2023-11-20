@@ -73,14 +73,16 @@ if (isset($_POST['submit'])){
         }else {
             $isNumberDocValid = true;
         }
+        
     }
+  
 
-    //Aqui empieza la validación del campo consulta 
    
 
     $submitCorrect = $isNombreValid and $isTelefonoValid and $isCorreoValid and $isNumberDocValid and $isDateValid;
 
     if($submitCorrect) {
+        header("Location: http://localhost/Cosmo-main/Log%20in.php");
         echo "<script>";
 
         echo "Swal.fire(

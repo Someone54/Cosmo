@@ -28,7 +28,7 @@
 
 
 #banner{
-    background-image: url(Grent\ title.jpg) ;
+    background-image: url(istockphoto-1346125184-1024x1024.jpg);
     background-position: center;
     width: 100%;
     height: calc(100vh - 220px); 
@@ -60,10 +60,11 @@
 
 #Bloq-2 {
     
-    color: rgba(0, 0, 0, 0.877);
+    color:  aliceblue;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 #Bloq-3 {
@@ -73,11 +74,17 @@
     align-items: center;
     margin-top: 60px;
     margin-bottom: 20px;
+
 }
 
 #Bloq-4 {
     margin-top: 60px;
     margin-bottom: 20px;
+}
+
+#frame{
+    position: relative;
+    
 }
 
 

@@ -29,13 +29,6 @@
                           <a class="nav-link " href="index.php">Home</a>
                         </li>
                         
-                        <li class="nav-item">
-                          <a class="nav-link " href="form.php">Inscription</a>
-                        </li>
-
-                        <li class="nav-item">
-                          <a class="nav-link" href="Log in.php">Log in</a>
-                        </li>
                       </ul>
                     </div>
                 </nav>
@@ -71,7 +64,7 @@
                               tu bachillerato estudies también una técnica laboral, enfocada en el desarrollo de software.</p>
                     </div>
                     <div id="img">
-                        <img src="Inspiratec_CosmoS.png" alt="">
+                        <img src="istockphoto-1372606890-612x612.jpg" alt="">
                     </div>
                     <div id="Bloq-4">
                         <h2>Beneficios</h2>
